@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#core{
+  background-color: #3C4B64;
+}
+/* #container{
+  display: flex;
+  height: 100%;
+} */
+.sidebar{
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #3C4B64;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+.sidebar::-webkit-scrollbar{
+  width: 12px;
+}
+.sidebar::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background-color: grey;
+}
+.sidebar::-webkit-scrollbar-thumb{
+      border-radius: 10px;
+      background:linear-gradient(violet,black);
+    
+}
+ .sidebar header{
+  font-size: 20px;
+  text-align: center;
+  line-height: 70px;
+  background-color: #303C54;
+  color: white;
+}
+ .sidebar li{
+  color: white;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 65px;
+  
+}
+.sidebar li a {
+  color: white;
+  text-decoration-line: none;
+}
+
+.cont{
+  display: flex;
+  height: 99vh;
+    
+}
+
+.main{
+  /* height: 100%; */
+  height: 100vh;
+  overflow: scroll;
+  width: 100%;
+  overflow-x: hidden;
+}
+.main::-webkit-scrollbar{
+  width: 12px;
+}
+.main::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background-color: grey;
+}
+.main::-webkit-scrollbar-thumb{
+      border-radius: 10px;
+      background:linear-gradient(violet,black);
+}
+#dash{
+  margin-left: 35px;
+}
+.cr1{
+  height: 172px;
+  width: 283px;
+  background-color: #321FDB;
+  margin-top: 21px;
+  margin-left: 10px;
+  border-radius: 10px;
+  text-align: start;
+  color: white;
+  padding: 35px;
+}
+#cri{
+  display: flex;
+  flex-wrap: wrap;
+}
+#cr1{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#foot{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.col{
+  height: 100px;
+  width: 100px;
+  background-color: yellowgreen;
+}
